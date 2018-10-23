@@ -4,4 +4,8 @@ class Vehicle
     @wheel_size = size
     @wheel_number = val
   end
+
+  def fill_up_tank
+    "filling up!"
+  end
 end
