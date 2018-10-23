@@ -5,11 +5,11 @@ class Vehicle
     @wheel_number = val
   end
 
-  def fill_up_tank
-    "filling up!"
-  end
-  
   def go
     "vrrrrrrrooom!"
+  end
+
+  def fill_up_tank
+    "filling up!"
   end
 end
